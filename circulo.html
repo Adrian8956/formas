@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Circulo</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/calculos.css">
+    <link rel="shortcut icon" href="./assets/img/padronizar.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Calculadora de Área do circulo
+            </h1>
+            <a href="index.html">Home</a>
+        </header>
+        <main>
+            <div class="info">
+                <p>
+                    O círculo é uma figura geométrica plana, cujos pontos estão todos à mesma distância de um ponto fixo, chamado centro.
+                </p>
+                <p>
+                    Fórmula para calcular a área = π . r²
+                </p>
+            </div>
+            <div class="form">
+                <div class="tela">
+                    <h4>Área do círculo:</h4>
+                    <h4 id="resultado"></h4>
+                </div>
+                <label for="raio">Raio:</label>
+                <input type="number" name="" id="raio" placeholder="Digite o valor do raio">
+                <button onclick="calcularCirculo()">Calcular Área</button>
+            </div>
+        </main>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

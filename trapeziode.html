@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do trapezoide irregular</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/calculos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Calculadora de Área do trapezoide irregular
+            </h1>
+            <a href="index.html">Home</a>
+        </header>
+        <div class="info">
+            <p>
+                Um trapezoide irregular é uma figura bidimensional que resulta da remoção de um trapezoide menor (geralmente similar ao trapezoide maior) de 
+                dentro de um trapezoide maior. A fórmula para calcular a área do trapezoide irregular é:
+            </p>
+            <p>
+                Fórmula para calcular a área = (B + b) * h / 2
+            </p>
+        </div>
+        <div class="form">
+            <div class="tela">
+                <h4>Área do trapezoide irregular:</h4>
+                <h4 id="resultado"></h4>
+            </div>
+            <label for="baseMaior">Base maior:</label>
+            <input type="number" name="" id="baseMaior" placeholder="Digite o valor da base maior">
+            <label for="baseMenor">Base menor:</label>
+            <input type="number" name="" id="baseMenor" placeholder="Digite o valor da base menor">
+            <label for="altura">Altura:</label>
+            <input type="number" name="" id="altura" placeholder="Digite o valor da altura">
+            <button onclick="calcularTrapezoide()">Calcular Área</button>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

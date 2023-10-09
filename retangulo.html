@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do retangulo</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/calculos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Calculadora de Área do retangulo 
+            </h1>
+            <a href="index.html">Home</a>
+        </header>
+        <main>
+            <div class="info">
+                <p>
+                    O retângulo é um quadrilátero que possui dois lados paralelos e dois lados perpendiculares.
+                    A área do retângulo é calculada multiplicando-se a medida da base pela medida da altura.
+                </p>
+                <p>
+                    A formula para calcular a área do retângulo é: A = b . h
+                </p>
+            </div>
+            <div class="form">
+                <div class="tela">
+                    <h4>Área do retangulo:</h4>
+                    <h4 id="resultado"></h4>
+                </div>
+                <label for="base">Base:</label>
+                <input type="number" name="" id="base" placeholder="Digite o valor da base">
+                <label for="altura">Altura:</label>
+                <input type="number" name="" id="altura" placeholder="Digite o valor da altura">
+                <button onclick="calcularRetangulo()">Calcular Área</button>
+            </div>
+        </main>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

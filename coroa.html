@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área coroa círcular</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/calculos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Calculadora de Área da coroa círcular
+            </h1>
+            <a href="index.html">Home</a>
+        </header>
+        <main>
+            <div class="info">
+                <p>
+                    A coroa circular é uma figura geométrica plana, cujos pontos estão todos à mesma distância de um ponto fixo, chamado centro.
+                </p>
+                <p>
+                    Fórmula para calcular a área = π . (R² - r²)
+                </p>
+            </div>
+            <div class="form">
+                <div class="tela">
+                    <h4>Área da coroa circular:</h4>
+                    <h4 id="resultado"></h4>
+                </div>
+                 <label for="raioMaior">Raio maior:</label>
+                <input type="number" name="" id="raioMaior" placeholder="Digite o valor do raio maior">
+                <label for="raioMenor">Raio menor:</label>
+                <input type="number" name="" id="raioMenor" placeholder="Digite o valor do raio menor">
+                <button onclick="calcularCoroa()">Calcular Área</button>
+            </div>
+        </main>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

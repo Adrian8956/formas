@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setor circular</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/calculos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Calculadora de Área do setor circular
+            </h1>
+            <a href="index.html">Home</a>
+        </header>
+        <div class="info">
+            <p>
+                O setor circular é uma figura geométrica plana, cujos pontos estão todos à mesma distância de um ponto fixo, chamado centro.
+            </p>
+            <p>
+                Fórmula para calcular a área = (π . r² . α) / 360
+            </p>
+        </div>
+        <div class="form">
+            <div class="tela">
+                <h4>Área do setor circular</h4>
+                <h4 id="resultado"></h4>
+            </div>
+                <label for="raio">Raio</label>
+                <input type="number" name="" id="raio" placeholder="Digite o valor do raio">
+                <label for="angulo">Ângulo</label>
+                <input type="number" name="" id="angulo" placeholder="Digite o valor do ângulo">
+            <button onclick="calcularSetor()">Calcular Área</button>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

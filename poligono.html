@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do poligono-de-n-lados</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/calculos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Calculadora de Área do poligono regular
+            </h1>
+            <a href="index.html">Home</a>
+        </header>
+        <div class="info">
+            <p>
+                O polígono regular é uma figura geométrica plana, cujos pontos estão todos à mesma distância de um ponto fixo, chamado centro.
+            </p>
+            <p>
+                Fórmula para calcular a área = (n . l²) / (4 . tg(π/n))
+            </p>
+        </div>
+        <div class="form">
+            <div class="tela">
+                <h4>Área do poligono Irregular</h4>
+                <h4 id="resultado"></h4>
+            </div>
+             <label for="lado">Tamanho do lado</label>
+            <input type="number" name="" id="lado" placeholder="Digite o valor do lado">
+            <label for="n">Quantidades de lados</label>
+            <input type="number" name="" id="n" placeholder="Digite o valor de n">
+            <button onclick="calcularPoligono()">Calcular Área</button>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
